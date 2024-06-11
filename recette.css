@@ -1,0 +1,180 @@
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: "LXGW WenKai TC", cursive;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+p.categorie {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: -17px;
+}
+
+div.categorie {
+    margin: 0 auto;
+    overflow: visible;
+}
+
+div.separateur {
+    height: 2px;
+    width: 150px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.centre {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-height: 400px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+    min-height: 300px;
+    background-color: lightgray;
+}
+
+div.contenu {
+    background-color: #fff;
+    margin: 60px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 400px;
+    border-radius: 5px;
+    overflow: visible;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+    font-size: 15px;
+    font-style: italic;
+}
+
+div.info {
+    position: relative;
+}
+
+table.info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #6C829DC0;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+table.info td {
+    text-align: center;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+table.info th {
+    font-size: 16px;
+    vertical-align: bottom;
+    text-decoration: underline;
+    padding-bottom: 6px;
+}
+
+div.colonne {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #6C829D;
+}
+
+div.colonne1 {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+div.colonne2 {
+    float: right;
+}
+
+div.ingredients p {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    margin: 8px 0;
+    transition: border 250ms ease-in-out;
+}
+
+div.ingredients p:hover {
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+}
+
+div.ingredients p span {
+    font-weight: bold;
+}
+
+table.preparation p.num {
+    background-color: #6C829D;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 1px;
+}
+
+table.preparation td {
+    vertical-align: top;
+}
+
+table.preparation tr {
+    height: 50px;
+}
+
+table.preparation {
+    padding-top: 10px;
+    min-width: 250px;
+}
+
+td.preparation_etape {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
+
